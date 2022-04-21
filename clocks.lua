@@ -33,8 +33,8 @@ if theme == "nord light" then
     color2 = 0x5e81ac
     color3 = 0xbf616a
     color4 = 0xa3be8c
-    bg_alpha = 0.1
-    fg_alpha = 0.6
+    bg_alpha = 0.3
+    fg_alpha = 0.9
 
 elseif theme == "nord dark" then
     color0 = 0x2e3440
@@ -51,8 +51,8 @@ elseif theme == "classic light" then
     color2 = 0x3f51b5
     color3 = 0xe53935
     color4 = 0x00796b
-    bg_alpha = 0.1
-    fg_alpha = 0.6
+    bg_alpha = 0.3
+    fg_alpha = 0.9
 
 elseif theme == "classic dark" then
     color0 = 0x000000
