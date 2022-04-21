@@ -2,6 +2,7 @@
 -- possible values of THEME
 -- nord light        nord dark
 -- classic light     classic dark
+-- gruvbox light     gruvbox dark
 theme = "nord light"
 
 -- waiting time before starting conky
@@ -59,6 +60,24 @@ elseif theme == "classic dark" then
     color2 = 0x3f51b5
     color3 = 0xe53935
     color4 = 0x00796b
+    bg_alpha = 0.3
+    fg_alpha = 0.9
+
+elseif theme == "gruvbox light" then
+    color0 = 0xfbf1c7 -- bg color
+    color1 = 0x689d6a -- aqua
+    color2 = 0x458588 -- blue
+    color3 = 0xcc241d -- red
+    color4 = 0x98971a -- green
+    bg_alpha = 0.3
+    fg_alpha = 0.9
+
+elseif theme == "gruvbox dark" then
+    color0 = 0x282828 -- bg color
+    color1 = 0x689d6a -- light-blue
+    color2 = 0x458588 -- blue
+    color3 = 0xcc241d -- red
+    color4 = 0x98971a -- green
     bg_alpha = 0.3
     fg_alpha = 0.9
 
