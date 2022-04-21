@@ -15,4 +15,4 @@ A Simple Conky config based on [Conky-Minimalism](https://github.com/NoTranslati
 3. Run startup.sh
 4. You can change the color theme on the conkyRC file
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/Tiago138/Minimalist-Conky/main/example.webp)
